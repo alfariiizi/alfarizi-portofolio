@@ -2,7 +2,14 @@
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        inter: "Inter",
+        pixel: '"Press Start 2P"',
+        aboreto: "Aboreto",
+        "roboto-mono": '"Roboto Mono"',
+      },
+    },
   },
   plugins: [],
 };
