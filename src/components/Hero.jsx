@@ -1,22 +1,12 @@
 import React from "react";
 import ImgHero from "../assets/hero-alfarizi.png";
-import {
-  Circle,
-  Diamond,
-  Polygon,
-  Donut,
-  CircleGrid,
-  Star,
-  Arrow,
-  Cross,
-  SquareDonut,
-} from "react-awesome-shapes";
+import { Circle, Diamond, Donut, CircleGrid } from "react-awesome-shapes";
 
 const Hero = () => {
   return (
     <div>
-      <div className="flex h-screen w-screen flex-col justify-center px-4 py-28 dark:bg-gradient-to-bl dark:from-slate-800 dark:to-slate-900">
-        <div className="flex flex-col items-center justify-between gap-5 p-6 dark:text-slate-200 md:flex-row">
+      <div className="flex h-screen w-screen flex-col justify-center px-4 py-28 dark:bg-gradient-to-bl dark:from-slate-800 dark:to-slate-900 dark:text-slate-200">
+        <div className="flex flex-col items-center justify-between gap-5 p-6 md:flex-row">
           <div className="z-10 mx-auto text-center font-inter">
             <div className="">Physicist | Developer</div>
             <div className="my-2 text-2xl font-bold sm:text-3xl md:text-4xl lg:text-6xl">

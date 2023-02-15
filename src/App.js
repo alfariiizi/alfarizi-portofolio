@@ -1,6 +1,9 @@
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import { useState } from "react";
+import Skills from "./components/Skills";
+import Contact from "./components/Contact";
+import Project from "./components/Project";
 
 function App() {
   let [darkMode, setDarkMode] = useState(false);
@@ -14,7 +17,9 @@ function App() {
       />
       <main className="">
         <Hero />
-        <div className="bg-[#0b2149] p-4 text-slate-200">Skills</div>
+        <Project />
+        <Skills />
+        <Contact />
       </main>
       <div className="h-[2000px]"></div>
     </div>

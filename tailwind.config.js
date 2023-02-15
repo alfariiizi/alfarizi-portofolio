@@ -9,6 +9,7 @@ module.exports = {
         pixel: '"Press Start 2P"',
         aboreto: "Aboreto",
         "roboto-mono": '"Roboto Mono"',
+        "permanent-marker": '"Permanent Marker"',
       },
     },
   },
