@@ -5,15 +5,15 @@ import ImgAbout from "../assets/about.jpeg";
 
 const About = () => {
   return (
-    <div>
+    <div className="h-screen w-screen">
       <Devider name={"About Me"} />
-      <div className="flex h-screen w-screen flex-col items-center justify-center gap-5 p-10 dark:bg-gradient-to-bl dark:from-slate-800 dark:to-slate-900 dark:text-slate-200 md:flex-row md:gap-5 xl:gap-1">
+      <div className="flex h-full w-full flex-col items-center justify-center gap-5 p-10 dark:bg-gradient-to-bl dark:from-slate-800 dark:to-slate-900 dark:text-slate-200 md:flex-row md:gap-5 xl:gap-1">
         <div className="lg:mx-14 xl:relative xl:left-[-6rem] xl:mx-36">
-          <div className="max-w-md overflow-hidden rounded-3xl md:max-w-full md:rounded-bl-none md:rounded-tr-none md:rounded-tl-[8rem] md:rounded-br-[8rem]">
+          <div className="w-[300px] overflow-hidden rounded-3xl md:w-auto md:max-w-full md:rounded-bl-none md:rounded-tr-none md:rounded-tl-[8rem] md:rounded-br-[8rem]">
             <img src={ImgAbout} alt="about-image" />
           </div>
         </div>
-        <div className="mx-auto rounded-xl border-y-4 border-violet-700 p-4 font-inter md:max-w-sm md:border-none md:pr-8 md:text-sm lg:pr-16 lg:text-base xl:relative xl:right-[8rem]">
+        <div className="mx-auto rounded-xl border-x-4 border-[#0b2149] p-4 font-inter text-sm md:max-w-sm md:border-none md:pr-8 md:text-sm lg:pr-16 lg:text-base xl:relative xl:right-[8rem]">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia esse
           ipsa at enim corporis, tenetur fugit odio minima voluptates dolor!
           Nobis totam optio, inventore et ratione dolorum quasi aut quos? Quasi
