@@ -4,6 +4,7 @@ import { useState } from "react";
 import Skills from "./components/Skills";
 import Contact from "./components/Contact";
 import Project from "./components/Project";
+import About from "./components/About";
 
 function App() {
   let [darkMode, setDarkMode] = useState(false);
@@ -17,6 +18,7 @@ function App() {
       />
       <main className="">
         <Hero />
+        <About />
         <Project />
         <Skills />
         <Contact />
