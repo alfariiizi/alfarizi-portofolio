@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/alfariiizi/alfarizi-portofolio/static/css/main.84f6398a.css",
+    "main.js": "/alfariiizi/alfarizi-portofolio/static/js/main.cebf9530.js",
+    "static/js/787.29c8b967.chunk.js": "/alfariiizi/alfarizi-portofolio/static/js/787.29c8b967.chunk.js",
+    "static/media/hero-alfarizi.png": "/alfariiizi/alfarizi-portofolio/static/media/hero-alfarizi.f3356609a74607216f92.png",
+    "static/media/matplotlib.png": "/alfariiizi/alfarizi-portofolio/static/media/matplotlib.1f3cb36363d0eb2c163f.png",
+    "static/media/reactjs.png": "/alfariiizi/alfarizi-portofolio/static/media/reactjs.81ed438b18e24116794d.png",
+    "static/media/python.png": "/alfariiizi/alfarizi-portofolio/static/media/python.dea924d737bb84eb9ce3.png",
+    "static/media/opengl.png": "/alfariiizi/alfarizi-portofolio/static/media/opengl.49666facd2baf4c12cc7.png",
+    "static/media/scikit-learn.png": "/alfariiizi/alfarizi-portofolio/static/media/scikit-learn.bfb987221ae5f83d782b.png",
+    "static/media/about.jpeg": "/alfariiizi/alfarizi-portofolio/static/media/about.39b839b288dfc8626b68.jpeg",
+    "static/media/cpp.png": "/alfariiizi/alfarizi-portofolio/static/media/cpp.64f637357bce0ccc8384.png",
+    "static/media/vulkan.png": "/alfariiizi/alfarizi-portofolio/static/media/vulkan.8d1291d52bb65937a3dd.png",
+    "static/media/qt.png": "/alfariiizi/alfarizi-portofolio/static/media/qt.49c2dbd0f37c0c26f63b.png",
+    "static/media/c-programming.png": "/alfariiizi/alfarizi-portofolio/static/media/c-programming.c0da8156a8d17281c29e.png",
+    "static/media/seaborn.png": "/alfariiizi/alfarizi-portofolio/static/media/seaborn.68b552ef9e46b4916dbb.png",
+    "static/media/tailwindcss.png": "/alfariiizi/alfarizi-portofolio/static/media/tailwindcss.8e81e4c5944b034a5865.png",
+    "static/media/nextjs.png": "/alfariiizi/alfarizi-portofolio/static/media/nextjs.6db19b31cc0a2f63cff4.png",
+    "static/media/javascript.png": "/alfariiizi/alfarizi-portofolio/static/media/javascript.266bd9fb2663dcc057b4.png",
+    "index.html": "/alfariiizi/alfarizi-portofolio/index.html",
+    "main.84f6398a.css.map": "/alfariiizi/alfarizi-portofolio/static/css/main.84f6398a.css.map",
+    "main.cebf9530.js.map": "/alfariiizi/alfarizi-portofolio/static/js/main.cebf9530.js.map",
+    "787.29c8b967.chunk.js.map": "/alfariiizi/alfarizi-portofolio/static/js/787.29c8b967.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.84f6398a.css",
+    "static/js/main.cebf9530.js"
+  ]
+}
