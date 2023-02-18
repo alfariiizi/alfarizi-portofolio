@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/alfarizi-portofolio/static/css/main.c30d9eb3.css",
-    "main.js": "/alfarizi-portofolio/static/js/main.f63e90ba.js",
+    "main.css": "/alfarizi-portofolio/static/css/main.3090a41b.css",
+    "main.js": "/alfarizi-portofolio/static/js/main.ec525e55.js",
     "static/js/787.29c8b967.chunk.js": "/alfarizi-portofolio/static/js/787.29c8b967.chunk.js",
     "static/media/hero-alfarizi.png": "/alfarizi-portofolio/static/media/hero-alfarizi.f3356609a74607216f92.png",
     "static/media/matplotlib.png": "/alfarizi-portofolio/static/media/matplotlib.1f3cb36363d0eb2c163f.png",
@@ -19,12 +19,12 @@
     "static/media/nextjs.png": "/alfarizi-portofolio/static/media/nextjs.6db19b31cc0a2f63cff4.png",
     "static/media/javascript.png": "/alfarizi-portofolio/static/media/javascript.266bd9fb2663dcc057b4.png",
     "index.html": "/alfarizi-portofolio/index.html",
-    "main.c30d9eb3.css.map": "/alfarizi-portofolio/static/css/main.c30d9eb3.css.map",
-    "main.f63e90ba.js.map": "/alfarizi-portofolio/static/js/main.f63e90ba.js.map",
+    "main.3090a41b.css.map": "/alfarizi-portofolio/static/css/main.3090a41b.css.map",
+    "main.ec525e55.js.map": "/alfarizi-portofolio/static/js/main.ec525e55.js.map",
     "787.29c8b967.chunk.js.map": "/alfarizi-portofolio/static/js/787.29c8b967.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c30d9eb3.css",
-    "static/js/main.f63e90ba.js"
+    "static/css/main.3090a41b.css",
+    "static/js/main.ec525e55.js"
   ]
 }
