@@ -9,7 +9,7 @@ const ProjectCard = ({ imgSrc, label, href, className }) => {
           className="h-[256px] w-[256px] overflow-hidden bg-blue-500 hover:bg-blue-600">
           <img src={imgSrc} alt="" className={className} />
         </a>
-        <p>{label}</p>
+        <p className="font-inter">{label}</p>
       </div>
     </div>
   );

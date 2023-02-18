@@ -1,11 +1,13 @@
+import { useState } from "react";
+
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
-import { useState } from "react";
 import Skills from "./components/Skills";
 import Contact from "./components/Contact";
 import Project from "./components/Project";
 import About from "./components/About";
 import Socials from "./components/Socials";
+import DarkModeSwitch from "./components/DarkModeSwitch";
 
 function App() {
   let [darkMode, setDarkMode] = useState(false);
@@ -13,9 +15,12 @@ function App() {
   return (
     <div className={darkMode ? "dark" : ""}>
       <Navbar
-        darkTimesHandler={() => {
-          setDarkMode(!darkMode);
-        }}
+        darkModeComponent={
+          <DarkModeSwitch
+            isDarkMode={darkMode}
+            darkModeHandler={() => setDarkMode(!darkMode)}
+          />
+        }
       />
       <Socials />
       <main className="">
