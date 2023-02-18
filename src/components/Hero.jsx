@@ -7,7 +7,7 @@ const Hero = () => {
     <div>
       <div className="flex h-screen w-screen flex-col justify-center px-4 py-28 dark:bg-gradient-to-bl dark:from-slate-800 dark:to-slate-900 dark:text-slate-200">
         <div className="flex flex-col items-center justify-between gap-5 p-6 md:flex-row">
-          <div className="z-10 mx-auto text-center font-inter">
+          <div className="z-[1] mx-auto text-center font-inter">
             <div className="">Physicist | Developer</div>
             <div className="my-2 text-2xl font-bold sm:text-3xl md:text-4xl lg:text-6xl">
               Moh Rizal Alfarizi
@@ -37,16 +37,16 @@ const Hero = () => {
             <Donut
               color="#11EFD1FF"
               size={["60px", "60px", "100px", "100px"]}
-              zIndex={1}
+              zIndex={0}
               className="absolute right-6 top-[130px] hidden sm:block"
             />
             <CircleGrid
               color="#11EFD1FF"
               size={["100px", "100px", "150px", "150px"]}
-              zIndex={1}
+              zIndex={0}
               className="md:botton-2 absolute right-2 bottom-2 sm:left-24 sm:bottom-4 md:left-1/3 xl:left-1/2 xl:bottom-0"
             />
-            <div className="z-10 mx-auto overflow-hidden rounded-full bg-black md:relative md:top-0 md:left-0 md:rounded-none md:bg-transparent">
+            <div className="relative z-10 mx-auto overflow-hidden rounded-full bg-black md:relative md:top-0 md:left-0 md:rounded-none md:bg-transparent">
               <img
                 src={ImgHero}
                 alt=""
