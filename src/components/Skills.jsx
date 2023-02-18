@@ -62,12 +62,12 @@ const Skills = () => {
           <SkillCard
             src={ImgScikitLearnLogo}
             skillName={"Scikit-Learn"}
-            className="mt-5 w-[60px] md:w-[80px]"
+            className="w-[60px] md:w-[80px]"
           />
           <SkillCard
             src={ImgQtLogo}
             skillName={"QT with Pyside"}
-            className="mt-3 w-[60px] md:w-[80px]"
+            className="w-[60px] md:w-[80px]"
           />
           <SkillCard
             src={ImgStreamlitLogo}
@@ -82,22 +82,22 @@ const Skills = () => {
           <SkillCard
             src={ImgReactJsLogo}
             skillName={"ReactJs"}
-            className="mt-2 w-[60px] md:w-[80px]"
+            className="w-[60px] md:w-[80px]"
           />
           <SkillCard
             src={ImgNextJsLogo}
             skillName={"NextJs"}
-            className="mt-5 w-[60px] md:w-[80px]"
+            className="w-[60px] md:w-[80px]"
           />
           <SkillCard
             src={ImgVulkanLogo}
             skillName={"Vulkan"}
-            className="mt-6 w-[60px] md:w-[80px]"
+            className="w-[60px] md:w-[80px]"
           />
           <SkillCard
             src={ImgOpengGlLogo}
             skillName={"OpenGL"}
-            className="mt-7 w-[60px] md:w-[80px]"
+            className="w-[60px] md:w-[80px]"
           />
         </div>
       </div>
