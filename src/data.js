@@ -16,23 +16,54 @@ import ImgNextJsLogo from "./assets/nextjs.png";
 
 import { BsLinkedin, BsGithub, BsYoutube } from "react-icons/bs";
 
+import ImgCatEngine from "./assets/cat-engine-v1.jpg";
+import ImgGuessGame from "./assets/guess-1-20.png";
+import ImgPigGame from "./assets/pig-game.png";
+import ImgRaportGenerator from "./assets/raport-generator.jpg";
+import ImgStrokeApp from "./assets/stroke-app.jpg";
+import ImgWeatherApp from "./assets/weather-app.jpg";
+
 export const projects = [
   {
-    name: "Some Text",
-    imageSrc: "",
-    link: "",
+    name: "Guess 1-20",
+    desc: "Simple javascript game that the user have to try guess random number from 1 to 20",
+    imageSrc: ImgGuessGame,
+    link: "https://alfariiizi.github.io/guess-1-20/",
     customClass: "",
   },
   {
-    name: "Some Text",
-    imageSrc: "",
-    link: "",
+    name: "Pig Game",
+    desc: "Multiplayer simple javascript game that have the rule which the player who reach score 100 first is the winner",
+    imageSrc: ImgPigGame,
+    link: "https://alfariiizi.github.io/pig-game/",
     customClass: "",
   },
   {
-    name: "Some Text",
-    imageSrc: "",
-    link: "",
+    name: "Cat-Engine v1",
+    desc: "Vulkan API renderer that can render basic mesh",
+    imageSrc: ImgCatEngine,
+    link: "https://github.com/alfariiizi/cat-engine-v1",
+    customClass: "",
+  },
+  {
+    name: "Raport Generator",
+    desc: "Raport generator tools that I use for my mom to generate all grade from average value",
+    imageSrc: ImgRaportGenerator,
+    link: "https://github.com/alfariiizi/raport-generator",
+    customClass: "",
+  },
+  {
+    name: "Weather App",
+    desc: "Weather forecaster that use data from OpenWeather API and build with Pyside6",
+    imageSrc: ImgWeatherApp,
+    link: "https://github.com/alfariiizi/Weather-App",
+    customClass: "",
+  },
+  {
+    name: "Stroke App",
+    desc: "ML Model that can predict whether the user have potentially stroke or not",
+    imageSrc: ImgStrokeApp,
+    link: "https://github.com/alfariiizi/Stroke-App",
     customClass: "",
   },
 ];
