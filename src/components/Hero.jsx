@@ -17,8 +17,8 @@ const Hero = () => {
             <p className="mx-auto my-4 max-w-lg text-center text-sm">
               Halo! I'm currently physics student at University of Gadjah Mada
               Indonesia. I love teaching and doing things in the field of{" "}
-              <strong>web development</strong> (<em>front-end</em> and{" "}
-              <em>back-end</em>), <strong>computer graphics</strong>, and{" "}
+              <strong>web development</strong> (<em>front-end</em>),{" "}
+              <strong>computer graphics</strong>, and{" "}
               <strong>data science</strong>.
             </p>
           </div>
