@@ -8,6 +8,7 @@ const ProjectCard = ({ imgSrc, label, desc, href, className }) => {
         <a
           href={href}
           target="_blank"
+          rel="noreferrer"
           className="h-[256px] w-full overflow-hidden">
           <img
             src={imgSrc}

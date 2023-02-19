@@ -22,7 +22,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="">
+    <div className="font-inter">
       <Devider name={"Contact Me"} />
       <div className="h-full w-full p-5 py-16 dark:bg-gradient-to-bl dark:from-slate-800 dark:to-slate-900 dark:text-slate-200">
         <form

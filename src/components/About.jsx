@@ -10,7 +10,7 @@ const About = () => {
       <div className="flex h-full w-full flex-col items-center justify-center gap-5 p-10 dark:bg-gradient-to-bl dark:from-slate-800 dark:to-slate-900 dark:text-slate-200 sm:justify-center md:flex-row md:gap-5 xl:gap-1">
         <div className="hidden md:block lg:mx-14 xl:relative xl:left-[-6rem] xl:mx-36">
           <div className="w-[300px] overflow-hidden lg:w-auto lg:max-w-full">
-            <img src={ImgAbout} alt="about-image" />
+            <img src={ImgAbout} alt="about" />
           </div>
         </div>
         <div className="mx-auto flex flex-col gap-3 rounded-xl border-x-4 border-[#0b2149] p-4 font-inter text-sm md:max-w-sm md:border-none md:pr-8 md:text-sm lg:pr-16 xl:relative xl:right-[8rem]">

@@ -1,5 +1,4 @@
 import React from "react";
-import { BsLinkedin, BsGithub, BsYoutube } from "react-icons/bs";
 
 import { socialLinks } from "../data";
 
@@ -12,6 +11,7 @@ const Socials = () => {
             <a
               href={socialLink.link}
               target="_blank"
+              rel="noreferrer"
               className={`${socialLink.customClass} relative -left-[94px] z-40 flex items-center justify-between bg-blue-800 p-2 transition-all duration-300 hover:left-0`}
               key={index}>
               {socialLink.name}

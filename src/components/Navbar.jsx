@@ -15,7 +15,8 @@ const Navbar = ({ darkModeComponent }) => {
               <a
                 href="https://drive.google.com/drive/folders/1PjreIi6SykaaXjCLu7VDKBmazmjFaBMb?usp=sharing"
                 className="rounded-lg bg-gradient-to-r from-blue-600 to-teal-600 p-2 text-gray-200 hover:from-blue-700 hover:to-teal-700 active:from-blue-900 active:to-teal-900"
-                target="_blank">
+                target="_blank"
+                rel="noreferrer">
                 Resume
               </a>
             </li>
