@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/alfarizi-portofolio/static/css/main.10179da8.css",
-    "main.js": "/alfarizi-portofolio/static/js/main.7d54477d.js",
+    "main.js": "/alfarizi-portofolio/static/js/main.2766c87e.js",
     "static/js/787.29c8b967.chunk.js": "/alfarizi-portofolio/static/js/787.29c8b967.chunk.js",
-    "static/media/weather-app.jpg": "/alfarizi-portofolio/static/media/weather-app.6d1b0ea61e8033a5d565.jpg",
     "static/media/hero-alfarizi.png": "/alfarizi-portofolio/static/media/hero-alfarizi.f3356609a74607216f92.png",
-    "static/media/stroke-app.jpg": "/alfarizi-portofolio/static/media/stroke-app.2910d8fe9a0b47713ea2.jpg",
+    "static/media/weather-app.jpg": "/alfarizi-portofolio/static/media/weather-app.4544a7be7133b59c83a8.jpg",
     "static/media/about.png": "/alfarizi-portofolio/static/media/about.fc8f75836320f43d784e.png",
-    "static/media/raport-generator.jpg": "/alfarizi-portofolio/static/media/raport-generator.5629fa49b850d83897a0.jpg",
+    "static/media/stroke-app.jpg": "/alfarizi-portofolio/static/media/stroke-app.ba726d407a72c1191d8c.jpg",
     "static/media/matplotlib.png": "/alfarizi-portofolio/static/media/matplotlib.1f3cb36363d0eb2c163f.png",
+    "static/media/raport-generator.jpg": "/alfarizi-portofolio/static/media/raport-generator.dc24eec4813a863faf0d.jpg",
     "static/media/pig-game.png": "/alfarizi-portofolio/static/media/pig-game.c477bc74571998c996f0.png",
     "static/media/reactjs.png": "/alfarizi-portofolio/static/media/reactjs.81ed438b18e24116794d.png",
     "static/media/python.png": "/alfarizi-portofolio/static/media/python.dea924d737bb84eb9ce3.png",
@@ -26,11 +26,11 @@
     "static/media/javascript.png": "/alfarizi-portofolio/static/media/javascript.266bd9fb2663dcc057b4.png",
     "index.html": "/alfarizi-portofolio/index.html",
     "main.10179da8.css.map": "/alfarizi-portofolio/static/css/main.10179da8.css.map",
-    "main.7d54477d.js.map": "/alfarizi-portofolio/static/js/main.7d54477d.js.map",
+    "main.2766c87e.js.map": "/alfarizi-portofolio/static/js/main.2766c87e.js.map",
     "787.29c8b967.chunk.js.map": "/alfarizi-portofolio/static/js/787.29c8b967.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.10179da8.css",
-    "static/js/main.7d54477d.js"
+    "static/js/main.2766c87e.js"
   ]
 }
