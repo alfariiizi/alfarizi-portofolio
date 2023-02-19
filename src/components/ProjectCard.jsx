@@ -3,7 +3,7 @@ import React from "react";
 const ProjectCard = ({ imgSrc, label, desc, href, className }) => {
   return (
     <div className=" relative left-2 top-2 h-[350px] w-[300px]">
-      <div className="absolute h-[350px] w-[300px] bg-indigo-900 bg-stripes bg-stripes-white dark:bg-inherit dark:bg-stripes-indigo-400"></div>
+      <div className="absolute h-[350px] w-[300px] border-2 border-[#0b2149] bg-teal-500 bg-stripes bg-stripes-black dark:border-slate-200"></div>
       <div className="relative -top-3 -left-3 z-10 flex h-full w-full flex-col items-center gap-2 overflow-hidden border-2 border-[#0b2149] bg-gray-200 dark:border-slate-200">
         <a
           href={href}

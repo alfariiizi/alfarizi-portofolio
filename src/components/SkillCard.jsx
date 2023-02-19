@@ -7,7 +7,7 @@ const SkillCard = ({ src, skillName, className }) => {
       <div className="flex h-full items-center justify-center">
         <img src={src} alt="" className={className} />
       </div>
-      <h4 className="hidden font-semibold dark:text-black md:block">
+      <h4 className="hidden font-roboto-mono text-sm font-semibold dark:text-black md:block">
         {skillName}
       </h4>
     </div>
