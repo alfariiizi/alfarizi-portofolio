@@ -1,7 +1,7 @@
 import React from "react";
 import Devider from "./Devider";
 
-import ImgAbout from "../assets/about.jpeg";
+import ImgAbout from "../assets/about.png";
 
 const About = () => {
   return (
@@ -9,7 +9,7 @@ const About = () => {
       <Devider name={"About Me"} />
       <div className="flex h-full w-full flex-col items-center justify-center gap-5 p-10 dark:bg-gradient-to-bl dark:from-slate-800 dark:to-slate-900 dark:text-slate-200 sm:justify-center md:flex-row md:gap-5 xl:gap-1">
         <div className="hidden md:block lg:mx-14 xl:relative xl:left-[-6rem] xl:mx-36">
-          <div className="w-[300px] overflow-hidden rounded-3xl md:w-auto md:max-w-full md:rounded-bl-none md:rounded-tr-none md:rounded-tl-[8rem] md:rounded-br-[8rem]">
+          <div className="w-[300px] overflow-hidden lg:w-auto lg:max-w-full">
             <img src={ImgAbout} alt="about-image" />
           </div>
         </div>

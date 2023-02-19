@@ -14,6 +14,8 @@ import ImgTailwindCssLogo from "./assets/tailwindcss.png";
 import ImgReactJsLogo from "./assets/reactjs.png";
 import ImgNextJsLogo from "./assets/nextjs.png";
 
+import { BsLinkedin, BsGithub, BsYoutube } from "react-icons/bs";
+
 export const projects = [
   {
     name: "Some Text",
@@ -119,5 +121,29 @@ export const tools = [
     name: "OpenGL",
     imageSrc: ImgOpengGlLogo,
     customClass: "w-[60px] md:w-[80px]",
+  },
+];
+
+export const socialLinks = [
+  {
+    name: "LinkedIn",
+    link: "https://www.linkedin.com/in/moh-rizal-alfarizi-3809b9246",
+    customClass: "bg-blue-800",
+    mobileCustomClass: "text-blue-800 dark:text-blue-400",
+    logo: BsLinkedin,
+  },
+  {
+    name: "Github",
+    link: "https://github.com/alfariiizi",
+    customClass: "bg-slate-700",
+    mobileCustomClass: "text-slate-700 dark:text-slate-300",
+    logo: BsGithub,
+  },
+  {
+    name: "Youtube",
+    link: "https://www.youtube.com/channel/UCj7ca13ljdoz3o1sNHwxzWQ",
+    customClass: "bg-red-700",
+    mobileCustomClass: "text-red-700 dark:text-red-400",
+    logo: BsYoutube,
   },
 ];

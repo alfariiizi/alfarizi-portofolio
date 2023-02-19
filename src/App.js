@@ -13,7 +13,7 @@ function App() {
   let [darkMode, setDarkMode] = useState(false);
 
   return (
-    <div className={darkMode ? "dark" : ""}>
+    <div className={`overflow-x-hidden ${darkMode ? "dark" : ""}`}>
       <Navbar
         darkModeComponent={
           <DarkModeSwitch

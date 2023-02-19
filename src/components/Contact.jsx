@@ -56,7 +56,7 @@ const Contact = () => {
                 id="message"
                 name="message"
                 required
-                rows={5}
+                rows={6}
                 className="w-2/3 max-w-lg rounded border-2 border-slate-800 px-2 focus:border-blue-700 focus:outline-none focus:outline-blue-500 dark:text-black"
               />
             </div>

@@ -1,12 +1,14 @@
 import React from "react";
 import ImgHero from "../assets/hero-alfarizi.png";
 import { Circle, Diamond, Donut, CircleGrid } from "react-awesome-shapes";
+import { socialLinks } from "../data";
 
 const Hero = () => {
   return (
     <div>
       <div className="flex h-screen w-screen flex-col justify-center px-4 py-28 dark:bg-gradient-to-bl dark:from-slate-800 dark:to-slate-900 dark:text-slate-200">
         <div className="flex flex-col items-center justify-between gap-5 p-6 md:flex-row">
+          {/* Hero Profile */}
           <div className="z-[1] mx-auto text-center font-inter">
             <div className="">Physicist | Developer</div>
             <div className="my-2 text-2xl font-bold sm:text-3xl md:text-4xl lg:text-6xl">
@@ -20,6 +22,20 @@ const Hero = () => {
               <strong>data science</strong>.
             </p>
           </div>
+
+          {/* Socials (on Mobile) */}
+          <div className="flex justify-center gap-6 md:hidden">
+            {socialLinks.map((socialLink, index) => (
+              <a
+                href={socialLink.link}
+                key={index}
+                className={`${socialLink.mobileCustomClass}`}>
+                <socialLink.logo size={25} />
+              </a>
+            ))}
+          </div>
+
+          {/* Hero Image */}
           <div>
             <Circle
               //   color="linear-gradient(135deg, #7d7b92, #6366f1)"
