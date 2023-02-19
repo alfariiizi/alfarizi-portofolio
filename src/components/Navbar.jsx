@@ -11,10 +11,11 @@ const Navbar = ({ darkModeComponent }) => {
             <li className="cursor-pointer text-gray-800 hover:text-violet-800 active:text-violet-500 dark:text-slate-100 dark:hover:text-violet-300 dark:active:text-violet-400">
               {darkModeComponent}
             </li>
-            <li>
+            <li className="relative top-1 left-1 h-full w-full">
+              <div className="absolute h-[32px] w-[75px] border-[1px] border-black bg-blue-500 bg-stripes bg-stripes-black" />
               <a
                 href="https://drive.google.com/drive/folders/1PjreIi6SykaaXjCLu7VDKBmazmjFaBMb?usp=sharing"
-                className="rounded-lg bg-gradient-to-r from-blue-600 to-teal-600 p-2 text-gray-200 hover:from-blue-700 hover:to-teal-700 active:from-blue-900 active:to-teal-900"
+                className="relative -top-1 -left-1 z-10 border-2 border-slate-800 bg-teal-500 p-2 text-black hover:bg-teal-600"
                 target="_blank"
                 rel="noreferrer">
                 Resume

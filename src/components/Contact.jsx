@@ -64,7 +64,7 @@ const Contact = () => {
           <button
             type="submit"
             value="Send"
-            className="my-8 mx-auto rounded-lg border-2 border-slate-600 bg-primary-500 px-3 py-2 text-slate-200 shadow-lg shadow-slate-700 hover:bg-primary-600 hover:shadow-slate-800 dark:border-slate-200 dark:shadow-slate-300 dark:hover:shadow-slate-400">
+            className="my-8 mx-auto border-2 border-slate-600 bg-teal-500 px-3 py-2 font-roboto-mono shadow-md shadow-slate-700 hover:border-slate-700 hover:bg-teal-600 hover:shadow-slate-800 dark:border-slate-200 dark:text-black dark:shadow-slate-300 dark:hover:border-slate-300 dark:hover:shadow-slate-400">
             {status}
           </button>
         </form>
