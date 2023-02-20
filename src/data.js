@@ -74,21 +74,25 @@ export const tools = [
     name: "C-Programming",
     imageSrc: ImgCProgrammingLogo,
     customClass: "w-[60px] md:w-[80px]",
+    link: "https://en.cppreference.com/w/c",
   },
   {
     name: "C++",
     imageSrc: ImgCppLogo,
     customClass: "w-[60px] md:w-[80px]",
+    link: "https://en.cppreference.com/w/",
   },
   {
     name: "Javascript",
     imageSrc: ImgJavascriptLogo,
     customClass: "w-[60px] md:w-[80px]",
+    link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
   },
   {
     name: "Python",
     imageSrc: ImgPythonLogo,
     customClass: "w-[60px] md:w-[80px]",
+    link: "https://www.python.org/",
   },
 
   // ML/DS/DA Related Tools
@@ -96,21 +100,25 @@ export const tools = [
     name: "Pandas",
     imageSrc: ImgPandasLogo,
     customClass: "w-[50px] md:w-[60px]",
+    link: "https://pandas.pydata.org/",
   },
   {
     name: "Matplotlib",
     imageSrc: ImgMatplotlibLogo,
     customClass: "w-[60px] md:w-[80px]",
+    link: "https://matplotlib.org/",
   },
   {
     name: "Seaborn",
     imageSrc: ImgSeabornLogo,
     customClass: "w-[60px] md:w-[80px]",
+    link: "https://seaborn.pydata.org/",
   },
   {
     name: "Scikit-Learn",
     imageSrc: ImgScikitLearnLogo,
     customClass: "w-[60px] md:w-[80px]",
+    link: "https://scikit-learn.org/stable/",
   },
 
   // Web-app
@@ -118,11 +126,13 @@ export const tools = [
     name: "QT with Pyside",
     imageSrc: ImgQtLogo,
     customClass: "w-[60px] md:w-[80px]",
+    link: "https://pypi.org/project/PySide6/",
   },
   {
     name: "Streamlit",
     imageSrc: ImgStreamlitLogo,
     customClass: "w-[60px] md:w-[80px]",
+    link: "https://streamlit.io/",
   },
 
   // Front-end
@@ -130,16 +140,19 @@ export const tools = [
     name: "TailwindCSS",
     imageSrc: ImgTailwindCssLogo,
     customClass: "w-[60px] md:w-[80px]",
+    link: "https://tailwindcss.com/",
   },
   {
     name: "ReactJs",
     imageSrc: ImgReactJsLogo,
     customClass: "w-[60px] md:w-[80px]",
+    link: "https://reactjs.org/",
   },
   {
     name: "NextJs",
     imageSrc: ImgNextJsLogo,
     customClass: "w-[60px] md:w-[80px]",
+    link: "https://nextjs.org/",
   },
 
   // Computer Graphics
@@ -147,11 +160,13 @@ export const tools = [
     name: "Vulkan",
     imageSrc: ImgVulkanLogo,
     customClass: "w-[60px] md:w-[80px]",
+    link: "https://www.vulkan.org/",
   },
   {
     name: "OpenGL",
     imageSrc: ImgOpengGlLogo,
     customClass: "w-[60px] md:w-[80px]",
+    link: "https://www.opengl.org/",
   },
 ];
 
