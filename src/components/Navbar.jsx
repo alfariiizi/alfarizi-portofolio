@@ -4,7 +4,7 @@ const Navbar = ({ darkModeComponent }) => {
   console.log(typeof darkModeComponent);
   return (
     <div>
-      <nav className="relative z-20">
+      <nav className="relative z-[100]">
         <div className="fixed top-0 left-0 right-0 flex h-20 w-full items-center justify-between border-b-[1px] border-b-slate-800 bg-gradient-to-t from-blue-100/30 to-violet-100/30 px-4 py-7 backdrop-blur-sm duration-200 dark:border-b-slate-200 sm:px-20 md:px-32 lg:px-40">
           <h1 className="font-pixel text-base dark:text-slate-200">ALFARIZI</h1>
           <ul className="flex items-center justify-center gap-2">

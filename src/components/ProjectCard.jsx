@@ -9,12 +9,19 @@ const ProjectCard = ({ imgSrc, label, desc, href, className }) => {
           href={href}
           target="_blank"
           rel="noreferrer"
-          className="h-[256px] w-full overflow-hidden">
+          className="group relative h-[256px] w-full overflow-hidden">
           <img
             src={imgSrc}
             alt=""
             className={`${className} h-full w-full object-cover`}
           />
+          <div className="group absolute top-0 left-0 h-0 w-full bg-violet-600/50 duration-200 group-hover:h-full group-hover:backdrop-blur-sm">
+            <div className="h-full w-full items-center justify-center opacity-0 group-hover:flex group-hover:opacity-100">
+              <p className="font-roboto-mono text-slate-200 hover:text-teal-400">
+                Click Me
+              </p>
+            </div>
+          </div>
         </a>
         <p className="font-roboto-mono">{label}</p>
         <p className="h-[4ch] p-2 font-inter text-sm">{desc}</p>
