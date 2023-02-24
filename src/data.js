@@ -19,6 +19,7 @@ import { BsLinkedin, BsGithub, BsYoutube } from "react-icons/bs";
 import ImgCatEngine from "./assets/cat-engine-v1.jpg";
 import ImgGuessGame from "./assets/guess-1-20.png";
 import ImgPigGame from "./assets/pig-game.png";
+import ImgMovientar from "./assets/movientar.png";
 import ImgRaportGenerator from "./assets/raport-generator.jpg";
 import ImgStrokeApp from "./assets/stroke-app.jpg";
 import ImgWeatherApp from "./assets/weather-app.jpg";
@@ -36,6 +37,13 @@ export const projects = [
     desc: "Multiplayer simple javascript game that have the rule which the player who reach score 100 first is the winner",
     imageSrc: ImgPigGame,
     link: "https://alfariiizi.github.io/pig-game/",
+    customClass: "",
+  },
+  {
+    name: "Movientar",
+    desc: "Movie list page that can retrieve from The Movie DB API",
+    imageSrc: ImgMovientar,
+    link: "https://alfariiizi.github.io/movientar/",
     customClass: "",
   },
   {
