@@ -8,12 +8,14 @@ import Project from "./components/Project";
 import About from "./components/About";
 import Socials from "./components/Socials";
 import DarkModeSwitch from "./components/DarkModeSwitch";
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
   let [darkMode, setDarkMode] = useState(false);
 
   return (
-    <div className={`overflow-x-hidden ${darkMode ? "dark" : ""}`}>
+    <div
+      className={`overflow-x-hidden scroll-smooth ${darkMode ? "dark" : ""}`}>
       <Navbar
         darkModeComponent={
           <DarkModeSwitch
@@ -22,6 +24,7 @@ function App() {
           />
         }
       />
+      <ScrollToTop />
       <Socials />
       <main className="">
         <Hero />
