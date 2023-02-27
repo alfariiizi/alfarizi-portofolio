@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/alfarizi-portofolio/static/css/main.76a14782.css",
-    "main.js": "/alfarizi-portofolio/static/js/main.27bbe5cb.js",
+    "main.css": "/alfarizi-portofolio/static/css/main.fd3c7a27.css",
+    "main.js": "/alfarizi-portofolio/static/js/main.1a0b52ef.js",
     "static/js/787.29c8b967.chunk.js": "/alfarizi-portofolio/static/js/787.29c8b967.chunk.js",
     "static/media/hero-alfarizi.png": "/alfarizi-portofolio/static/media/hero-alfarizi.f3356609a74607216f92.png",
     "static/media/weather-app.jpg": "/alfarizi-portofolio/static/media/weather-app.4544a7be7133b59c83a8.jpg",
@@ -26,12 +26,12 @@
     "static/media/nextjs.png": "/alfarizi-portofolio/static/media/nextjs.6db19b31cc0a2f63cff4.png",
     "static/media/javascript.png": "/alfarizi-portofolio/static/media/javascript.266bd9fb2663dcc057b4.png",
     "index.html": "/alfarizi-portofolio/index.html",
-    "main.76a14782.css.map": "/alfarizi-portofolio/static/css/main.76a14782.css.map",
-    "main.27bbe5cb.js.map": "/alfarizi-portofolio/static/js/main.27bbe5cb.js.map",
+    "main.fd3c7a27.css.map": "/alfarizi-portofolio/static/css/main.fd3c7a27.css.map",
+    "main.1a0b52ef.js.map": "/alfarizi-portofolio/static/js/main.1a0b52ef.js.map",
     "787.29c8b967.chunk.js.map": "/alfarizi-portofolio/static/js/787.29c8b967.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.76a14782.css",
-    "static/js/main.27bbe5cb.js"
+    "static/css/main.fd3c7a27.css",
+    "static/js/main.1a0b52ef.js"
   ]
 }
