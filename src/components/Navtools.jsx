@@ -13,7 +13,7 @@ const Navtools = ({ refSection }) => {
   return (
     <section className="relative z-50">
       <div className="flex justify-center">
-        <div className="fixed bottom-8 flex items-center justify-center rounded-full border-2 border-black bg-slate-600/30 backdrop-blur-sm dark:bg-slate-100/40">
+        <div className="fixed bottom-8 flex items-center justify-center rounded-full border-2 border-black bg-slate-600/30 shadow-lg shadow-slate-700 backdrop-blur-sm dark:bg-slate-100/40">
           {navToolsContent.map((content, index) => (
             <div
               key={index}
