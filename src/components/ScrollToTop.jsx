@@ -27,11 +27,15 @@ const ScrollToTop = () => {
   }, []);
 
   return (
-    <div className="fixed right-3 bottom-7 z-50 md:right-10">
+    // I try to animating this component, but it still doesn't work
+    <div
+      className={`${
+        isVisible ? "block opacity-100" : "hidden opacity-0"
+      } fixed right-3 bottom-7 z-50 duration-200 md:right-10`}>
       <button
         onClick={scrollToTop}
         className="rounded-full bg-yellow-500 shadow-lg shadow-black duration-200 hover:bg-yellow-600">
-        {isVisible && <IoIosArrowDropup size={35} />}
+        <IoIosArrowDropup size={35} />
       </button>
     </div>
   );
