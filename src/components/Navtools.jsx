@@ -4,7 +4,7 @@ import { navToolsContent } from "../data";
 const Navtools = ({ refSection }) => {
   const handleClick = (element) => {
     window.scrollTo({
-      top: element.current.offsetTop,
+      top: element.current.offsetTop - 80, // the '80' is to make sure the header section is not below of navbar
       behavior: "smooth",
     });
   };
