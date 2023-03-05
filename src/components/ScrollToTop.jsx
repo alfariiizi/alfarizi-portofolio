@@ -27,10 +27,10 @@ const ScrollToTop = () => {
   }, []);
 
   return (
-    <div className="fixed right-3 bottom-3 z-50 sm:right-5 sm:bottom-5 md:right-10 md:bottom-10">
+    <div className="fixed right-3 bottom-7 z-50 md:right-10">
       <button
         onClick={scrollToTop}
-        className="rounded-full bg-yellow-500 shadow-lg shadow-black hover:bg-yellow-600">
+        className="rounded-full bg-yellow-500 shadow-lg shadow-black duration-200 hover:bg-yellow-600">
         {isVisible && <IoIosArrowDropup size={35} />}
       </button>
     </div>
