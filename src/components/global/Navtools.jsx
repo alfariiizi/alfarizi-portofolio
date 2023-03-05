@@ -1,5 +1,5 @@
 import React from "react";
-import { navToolsContent } from "../data";
+import { navToolsContent } from "../../data";
 
 const Navtools = ({ refSection }) => {
   const handleClick = (element) => {

@@ -1,15 +1,15 @@
 import { useState } from "react";
 
-import Navbar from "./components/Navbar";
-import Hero from "./components/Hero";
-import Skills from "./components/Skills";
-import Contact from "./components/Contact";
-import Project from "./components/Project";
-import About from "./components/About";
-import Socials from "./components/Socials";
-import DarkModeSwitch from "./components/DarkModeSwitch";
-import ScrollToTop from "./components/ScrollToTop";
-import Navtools from "./components/Navtools";
+import Navbar from "./components/global/Navbar";
+import Hero from "./components/hero/Hero";
+import Skills from "./components/skill-tool/Skills";
+import Contact from "./components/contact/Contact";
+import Project from "./components/my-work/Project";
+import About from "./components/about-me/About";
+import Socials from "./components/global/Socials";
+import DarkModeSwitch from "./components/global/DarkModeSwitch";
+import ScrollToTop from "./components/global/ScrollToTop";
+import Navtools from "./components/global/Navtools";
 
 import useRefSection from "./hooks/useRefSection";
 

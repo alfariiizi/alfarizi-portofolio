@@ -1,7 +1,7 @@
 import React from "react";
-import Devider from "./Devider";
+import Devider from "../utils/Devider";
 
-import ImgAbout from "../assets/about.png";
+import ImgAbout from "../../assets/about.png";
 
 const About = ({ useRefSection }) => {
   return (

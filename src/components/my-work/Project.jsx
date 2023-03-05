@@ -1,8 +1,8 @@
 import React from "react";
-import Devider from "./Devider";
+import Devider from "../utils/Devider";
 import ProjectCard from "./ProjectCard";
 
-import { projects } from "../data";
+import { projects } from "../../data";
 
 const Project = ({ useRefSection }) => {
   return (

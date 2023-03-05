@@ -1,6 +1,6 @@
 import React, { useState, useRef } from "react";
 import emailJs from "@emailjs/browser";
-import Devider from "./Devider";
+import Devider from "../utils/Devider";
 
 const Contact = ({ useRefSection }) => {
   const [status, setStatus] = useState("Submit");

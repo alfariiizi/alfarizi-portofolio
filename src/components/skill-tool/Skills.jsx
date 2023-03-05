@@ -1,7 +1,7 @@
 import React from "react";
-import Devider from "./Devider";
+import Devider from "../utils/Devider";
 import SkillCard from "./SkillCard";
-import { tools } from "../data";
+import { tools } from "../../data";
 
 const Skills = ({ useRefSection }) => {
   return (

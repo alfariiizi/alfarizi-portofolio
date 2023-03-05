@@ -1,7 +1,7 @@
 import React from "react";
-import ImgHero from "../assets/hero-alfarizi.png";
+import ImgHero from "../../assets/hero-alfarizi.png";
 import { Circle, Diamond, Donut, CircleGrid } from "react-awesome-shapes";
-import { socialLinks } from "../data";
+import { socialLinks } from "../../data";
 
 const Hero = () => {
   return (
