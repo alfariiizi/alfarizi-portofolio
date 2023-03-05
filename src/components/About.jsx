@@ -3,9 +3,9 @@ import Devider from "./Devider";
 
 import ImgAbout from "../assets/about.png";
 
-const About = () => {
+const About = ({ useRefSection }) => {
   return (
-    <div className="md:h-screen md:w-screen">
+    <div ref={useRefSection} className="md:h-screen md:w-screen">
       <Devider name={"About Me"} />
       <div className="flex h-full w-full flex-col items-center justify-center gap-5 p-10 dark:bg-gradient-to-bl dark:from-slate-800 dark:to-slate-900 dark:text-slate-200 sm:justify-center md:flex-row md:gap-5 xl:gap-1">
         <div className="hidden md:block lg:mx-14 xl:relative xl:left-[-6rem] xl:mx-36">

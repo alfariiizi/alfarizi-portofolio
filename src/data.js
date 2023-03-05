@@ -209,15 +209,15 @@ export const socialLinks = [
 ];
 
 export const navToolsContent = [
-  {
-    name: "Back to top",
-    component: <CgProfile />,
-    customClass: "rounded-l-full",
-  },
+  // {
+  //   name: "Back to top",
+  //   component: <CgProfile />,
+  //   customClass: "rounded-l-full",
+  // },
   {
     name: "About Me",
     component: <RiProfileLine />,
-    customClass: "",
+    customClass: "rounded-l-full",
   },
   {
     name: "Project",

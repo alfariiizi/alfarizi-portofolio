@@ -4,9 +4,9 @@ import ProjectCard from "./ProjectCard";
 
 import { projects } from "../data";
 
-const Project = () => {
+const Project = ({ useRefSection }) => {
   return (
-    <div className="">
+    <div ref={useRefSection} className="">
       <Devider name={"My Work"} />
       <div className="flex w-full justify-center p-5 dark:bg-gradient-to-bl dark:from-slate-800 dark:to-slate-900">
         <div className="my-12 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
