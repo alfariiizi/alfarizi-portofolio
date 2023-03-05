@@ -15,6 +15,12 @@ import ImgReactJsLogo from "./assets/reactjs.png";
 import ImgNextJsLogo from "./assets/nextjs.png";
 
 import { BsLinkedin, BsGithub, BsYoutube } from "react-icons/bs";
+import { GrContactInfo, GrProjects } from "react-icons/gr";
+import { GoTools } from "react-icons/go";
+import { MdOutlinePeopleAlt } from "react-icons/md";
+import { CgProfile } from "react-icons/cg";
+import { VscProject } from "react-icons/vsc";
+import { RiContactsBookLine, RiProfileLine } from "react-icons/ri";
 
 import ImgCatEngine from "./assets/cat-engine-v1.jpg";
 import ImgGuessGame from "./assets/guess-1-20.png";
@@ -199,5 +205,33 @@ export const socialLinks = [
     customClass: "bg-red-700",
     mobileCustomClass: "text-red-700 dark:text-red-400",
     logo: BsYoutube,
+  },
+];
+
+export const navToolsContent = [
+  {
+    name: "Back to top",
+    component: <CgProfile />,
+    customClass: "rounded-l-full",
+  },
+  {
+    name: "About Me",
+    component: <RiProfileLine />,
+    customClass: "",
+  },
+  {
+    name: "Project",
+    component: <VscProject />,
+    customClass: "",
+  },
+  {
+    name: "Tools",
+    component: <GoTools />,
+    customClass: "",
+  },
+  {
+    name: "Contact",
+    component: <RiContactsBookLine />,
+    customClass: "rounded-r-full",
   },
 ];

@@ -9,6 +9,7 @@ import About from "./components/About";
 import Socials from "./components/Socials";
 import DarkModeSwitch from "./components/DarkModeSwitch";
 import ScrollToTop from "./components/ScrollToTop";
+import Navtools from "./components/Navtools";
 
 function App() {
   let [darkMode, setDarkMode] = useState(false);
@@ -25,6 +26,7 @@ function App() {
         }
       />
       <ScrollToTop />
+      <Navtools />
       <Socials />
       <main className="">
         <Hero />
