@@ -13,6 +13,7 @@ import ImgOpengGlLogo from "./assets/opengl.png";
 import ImgTailwindCssLogo from "./assets/tailwindcss.png";
 import ImgReactJsLogo from "./assets/reactjs.png";
 import ImgNextJsLogo from "./assets/nextjs.png";
+import ImgBlogspot from "./assets/blogspot.png";
 
 import { BsLinkedin, BsGithub, BsYoutube } from "react-icons/bs";
 import { GrContactInfo, GrProjects } from "react-icons/gr";
@@ -32,6 +33,20 @@ import ImgWeatherApp from "./assets/weather-app.jpg";
 
 export const projects = [
   {
+    name: "Blogspot",
+    desc: "My blogspot that use Nextjs revalidation and integrate it with Github API",
+    imageSrc: ImgBlogspot,
+    link: "https://alfarizi-blog.vercel.app/",
+    customClass: "",
+  },
+  {
+    name: "Movientar",
+    desc: "Movie list page that can retrieve from The Movie DB API",
+    imageSrc: ImgMovientar,
+    link: "https://alfariiizi.github.io/movientar/",
+    customClass: "",
+  },
+  {
     name: "Guess 1-20",
     desc: "Simple javascript game that the user have to try guess random number from 1 to 20",
     imageSrc: ImgGuessGame,
@@ -46,13 +61,6 @@ export const projects = [
     customClass: "",
   },
   {
-    name: "Movientar",
-    desc: "Movie list page that can retrieve from The Movie DB API",
-    imageSrc: ImgMovientar,
-    link: "https://alfariiizi.github.io/movientar/",
-    customClass: "",
-  },
-  {
     name: "Cat-Engine v1",
     desc: "Vulkan API renderer that can render basic mesh",
     imageSrc: ImgCatEngine,
@@ -64,13 +72,6 @@ export const projects = [
     desc: "Raport generator tools that I use for my mom to generate all grade from average value",
     imageSrc: ImgRaportGenerator,
     link: "https://github.com/alfariiizi/raport-generator",
-    customClass: "",
-  },
-  {
-    name: "Weather App",
-    desc: "Weather forecaster that use data from OpenWeather API and build with Pyside6",
-    imageSrc: ImgWeatherApp,
-    link: "https://github.com/alfariiizi/Weather-App",
     customClass: "",
   },
   {
