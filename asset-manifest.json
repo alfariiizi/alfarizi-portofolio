@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/alfarizi-portofolio/static/css/main.bdbc3e0e.css",
-    "main.js": "/alfarizi-portofolio/static/js/main.2924b5e4.js",
+    "main.js": "/alfarizi-portofolio/static/js/main.0d4cebf7.js",
     "static/js/787.29c8b967.chunk.js": "/alfarizi-portofolio/static/js/787.29c8b967.chunk.js",
     "static/media/hero-alfarizi.png": "/alfarizi-portofolio/static/media/hero-alfarizi.f3356609a74607216f92.png",
     "static/media/weather-app.jpg": "/alfarizi-portofolio/static/media/weather-app.4544a7be7133b59c83a8.jpg",
@@ -17,6 +17,7 @@
     "static/media/scikit-learn.png": "/alfarizi-portofolio/static/media/scikit-learn.bfb987221ae5f83d782b.png",
     "static/media/cpp.png": "/alfarizi-portofolio/static/media/cpp.64f637357bce0ccc8384.png",
     "static/media/cat-engine-v1.jpg": "/alfarizi-portofolio/static/media/cat-engine-v1.200ee25428db55bfef55.jpg",
+    "static/media/blogspot.png": "/alfarizi-portofolio/static/media/blogspot.e4023663904d4f438e00.png",
     "static/media/vulkan.png": "/alfarizi-portofolio/static/media/vulkan.8d1291d52bb65937a3dd.png",
     "static/media/qt.png": "/alfarizi-portofolio/static/media/qt.49c2dbd0f37c0c26f63b.png",
     "static/media/c-programming.png": "/alfarizi-portofolio/static/media/c-programming.c0da8156a8d17281c29e.png",
@@ -27,11 +28,11 @@
     "static/media/javascript.png": "/alfarizi-portofolio/static/media/javascript.266bd9fb2663dcc057b4.png",
     "index.html": "/alfarizi-portofolio/index.html",
     "main.bdbc3e0e.css.map": "/alfarizi-portofolio/static/css/main.bdbc3e0e.css.map",
-    "main.2924b5e4.js.map": "/alfarizi-portofolio/static/js/main.2924b5e4.js.map",
+    "main.0d4cebf7.js.map": "/alfarizi-portofolio/static/js/main.0d4cebf7.js.map",
     "787.29c8b967.chunk.js.map": "/alfarizi-portofolio/static/js/787.29c8b967.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bdbc3e0e.css",
-    "static/js/main.2924b5e4.js"
+    "static/js/main.0d4cebf7.js"
   ]
 }
