@@ -13,7 +13,8 @@ import ImgOpengGlLogo from "./assets/opengl.png";
 import ImgTailwindCssLogo from "./assets/tailwindcss.png";
 import ImgReactJsLogo from "./assets/reactjs.png";
 import ImgNextJsLogo from "./assets/nextjs.png";
-import ImgBlogspot from "./assets/blogspot.png";
+import ImgMysqlLogo from "./assets/mysql.png";
+import ImgLaravelLogo from "./assets/laravel.png";
 
 import { BsLinkedin, BsGithub, BsYoutube } from "react-icons/bs";
 import { GrContactInfo, GrProjects } from "react-icons/gr";
@@ -29,6 +30,9 @@ import ImgPigGame from "./assets/pig-game.png";
 import ImgMovientar from "./assets/movientar.png";
 import ImgRaportGenerator from "./assets/raport-generator.jpg";
 import ImgStrokeApp from "./assets/stroke-app.jpg";
+import ImgBlogspot from "./assets/blogspot.png";
+import ImgWikirocket from "./assets/wikirocket-app.png";
+import ImgAdminLaravelReact from "./assets/admin-react-laravel-project-app.png";
 import ImgWeatherApp from "./assets/weather-app.jpg";
 
 export const projects = [
@@ -40,10 +44,24 @@ export const projects = [
     customClass: "",
   },
   {
+    name: "Wikirocket!",
+    desc: "Fast search like rocket from wikipedia API",
+    imageSrc: ImgWikirocket,
+    link: "https://wikirocket-puce.vercel.app/",
+    customClass: "",
+  },
+  {
     name: "Movientar",
     desc: "Movie list page that can retrieve from The Movie DB API",
     imageSrc: ImgMovientar,
     link: "https://alfariiizi.github.io/movientar/",
+    customClass: "",
+  },
+  {
+    name: "Laravel React Project",
+    desc: "Connecting Laravel Backend API with Reactjs Vite",
+    imageSrc: ImgAdminLaravelReact,
+    link: "https://github.com/alfariiizi/laravel-react-crud-project",
     customClass: "",
   },
   {
@@ -150,7 +168,7 @@ export const tools = [
     link: "https://streamlit.io/",
   },
 
-  // Front-end
+  // Frontend
   {
     name: "TailwindCSS",
     imageSrc: ImgTailwindCssLogo,
@@ -168,6 +186,20 @@ export const tools = [
     imageSrc: ImgNextJsLogo,
     customClass: "w-[60px] md:w-[80px]",
     link: "https://nextjs.org/",
+  },
+
+  // Backend
+  {
+    name: "Laravel",
+    imageSrc: ImgLaravelLogo,
+    customClass: "w-[100px] md:w-[120px]",
+    link: "https://laravel.com/",
+  },
+  {
+    name: "MySQL",
+    imageSrc: ImgMysqlLogo,
+    customClass: "w-[60px] md:w-[80px]",
+    link: "https://www.mysql.com/",
   },
 
   // Computer Graphics
