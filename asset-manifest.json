@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/alfarizi-portofolio/static/css/main.bdbc3e0e.css",
-    "main.js": "/alfarizi-portofolio/static/js/main.0d4cebf7.js",
+    "main.css": "/alfarizi-portofolio/static/css/main.2afed71f.css",
+    "main.js": "/alfarizi-portofolio/static/js/main.8b45b5c2.js",
     "static/js/787.29c8b967.chunk.js": "/alfarizi-portofolio/static/js/787.29c8b967.chunk.js",
     "static/media/hero-alfarizi.png": "/alfarizi-portofolio/static/media/hero-alfarizi.f3356609a74607216f92.png",
     "static/media/weather-app.jpg": "/alfarizi-portofolio/static/media/weather-app.4544a7be7133b59c83a8.jpg",
@@ -11,6 +11,7 @@
     "static/media/matplotlib.png": "/alfarizi-portofolio/static/media/matplotlib.1f3cb36363d0eb2c163f.png",
     "static/media/raport-generator.jpg": "/alfarizi-portofolio/static/media/raport-generator.dc24eec4813a863faf0d.jpg",
     "static/media/pig-game.png": "/alfarizi-portofolio/static/media/pig-game.c477bc74571998c996f0.png",
+    "static/media/wikirocket-app.png": "/alfarizi-portofolio/static/media/wikirocket-app.5f781f49f7b54276afb9.png",
     "static/media/reactjs.png": "/alfarizi-portofolio/static/media/reactjs.81ed438b18e24116794d.png",
     "static/media/python.png": "/alfarizi-portofolio/static/media/python.dea924d737bb84eb9ce3.png",
     "static/media/opengl.png": "/alfarizi-portofolio/static/media/opengl.49666facd2baf4c12cc7.png",
@@ -20,19 +21,22 @@
     "static/media/blogspot.png": "/alfarizi-portofolio/static/media/blogspot.e4023663904d4f438e00.png",
     "static/media/vulkan.png": "/alfarizi-portofolio/static/media/vulkan.8d1291d52bb65937a3dd.png",
     "static/media/qt.png": "/alfarizi-portofolio/static/media/qt.49c2dbd0f37c0c26f63b.png",
+    "static/media/laravel.png": "/alfarizi-portofolio/static/media/laravel.bd42a7f76b906654d4ed.png",
     "static/media/c-programming.png": "/alfarizi-portofolio/static/media/c-programming.c0da8156a8d17281c29e.png",
+    "static/media/admin-react-laravel-project-app.png": "/alfarizi-portofolio/static/media/admin-react-laravel-project-app.9a6700f0d42df2f90cf2.png",
     "static/media/seaborn.png": "/alfarizi-portofolio/static/media/seaborn.68b552ef9e46b4916dbb.png",
     "static/media/tailwindcss.png": "/alfarizi-portofolio/static/media/tailwindcss.8e81e4c5944b034a5865.png",
     "static/media/guess-1-20.png": "/alfarizi-portofolio/static/media/guess-1-20.c4b599a911190e4cc8de.png",
+    "static/media/mysql.png": "/alfarizi-portofolio/static/media/mysql.97dcf359dd133fed966c.png",
     "static/media/nextjs.png": "/alfarizi-portofolio/static/media/nextjs.6db19b31cc0a2f63cff4.png",
     "static/media/javascript.png": "/alfarizi-portofolio/static/media/javascript.266bd9fb2663dcc057b4.png",
     "index.html": "/alfarizi-portofolio/index.html",
-    "main.bdbc3e0e.css.map": "/alfarizi-portofolio/static/css/main.bdbc3e0e.css.map",
-    "main.0d4cebf7.js.map": "/alfarizi-portofolio/static/js/main.0d4cebf7.js.map",
+    "main.2afed71f.css.map": "/alfarizi-portofolio/static/css/main.2afed71f.css.map",
+    "main.8b45b5c2.js.map": "/alfarizi-portofolio/static/js/main.8b45b5c2.js.map",
     "787.29c8b967.chunk.js.map": "/alfarizi-portofolio/static/js/787.29c8b967.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bdbc3e0e.css",
-    "static/js/main.0d4cebf7.js"
+    "static/css/main.2afed71f.css",
+    "static/js/main.8b45b5c2.js"
   ]
 }
